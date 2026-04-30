@@ -3,6 +3,17 @@
     "supabase": {
       "type": "http",
       "url": "https://mcp.supabase.com/mcp?project_ref=qyzfgvhsuvitxwxutadr"
+    },
+    "neon": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@neondatabase/mcp-server-neon",
+        "start",
+        "napi_nlasb1g43gkxb39tbnarnvcz20w8s7cox5k6d64nu4p6k62jzkd7aogofhe3us0c"
+      ],
+      "env": {}
     }
   }
 }
